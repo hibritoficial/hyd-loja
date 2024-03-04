@@ -17,7 +17,7 @@
       <v-col cols="4" sm="5" class="pl-5 d-lg-none">
         <v-menu>
           <template v-slot:activator="{ props }">
-            <v-btn color="blue" v-bind="props" icon="mdi-menu">
+            <v-btn color="sentenary" v-bind="props" icon="mdi-menu">
             </v-btn>
           </template>
           <v-list>
@@ -30,16 +30,20 @@
       </v-col>
 
       <v-col cols="4" sm="" lg="5" >
-        <v-img src="/logohydro.png" max-width="100" :class="smAndDown ? '' : 'ml-12'" />
+        <div class="d-flex">
+          <v-img src="/logohydro.png" max-width="68" :class="smAndDown ? 'mr-2' : 'ml-12 mr-5'" />
+          <v-img src="/logoleudo.png" max-width="68" />
+        </div>
       </v-col>
+     
 
       <v-col cols="4" sm="2" lg="1">
         <v-dialog width="500">
           <template v-slot:activator="{ props }">
-            <v-btn icon="mdi-account-circle" color="blue" v-bind="props"></v-btn>
+            <v-btn icon="mdi-account-circle" color="sentenary" v-bind="props"></v-btn>
           </template>
           <template v-slot:default="{ isActive }">
-            <v-card title="Cadastrar-Se">
+            <v-card title="Cadastrar-se">
               <v-card-text>
                 <v-form v-model="valid">
                   <v-container>
@@ -78,22 +82,8 @@
           </template>
         </v-dialog>
 
-        <v-dialog width="500">
-          <template v-slot:activator="{ props }">
-            <v-btn icon="mdi-shopping-outline" color="blue" v-bind="props" text="Open Dialog"> </v-btn>
-          </template>
-          <template v-slot:default="{ isActive }">
-            <v-card title="CARRINHO DE COMPRAS" class="bg-black">
-              <v-card-text>
-                <v-chip class="d-flex justify-center align-center">O carrinho de compras está vazio.</v-chip>
-              </v-card-text>
-              <v-card-actions>
-                <v-spacer></v-spacer>
-                <v-btn class="bg-primary" text="Fechar" @click="isActive.value = false"></v-btn>
-              </v-card-actions>
-            </v-card>
-          </template>
-        </v-dialog>
+        
+            <v-btn icon="mdi-shopping-outline" color="sentenary" v-bind="props" text="Open Dialog"> </v-btn>
       </v-col>
     </v-row>
   </v-app-bar>
