@@ -5,7 +5,7 @@
     </div>
 
     <v-row class="d-flex w-100 mx-0 mt-16 mb-16">
-      <v-col cols="12" sm="6" md="3" align="center">
+      <v-col cols="12" sm="6" md="4" align="center">
         <v-card max-width="300" class="elevation-24 pb-4" align="center">
           <v-img src="/raiz.jpg" height="300px" cover></v-img>
 
@@ -49,7 +49,7 @@
         </v-card>
       </v-col>
 
-      <v-col cols="12" sm="6" md="3" align="center">
+      <v-col cols="12" sm="6" md="4" align="center">
         <v-card max-width="300" class="elevation-24 pb-4" align="center">
           <v-img src="/fwz.jpg" height="300px" cover></v-img>
 
@@ -92,7 +92,7 @@
         </v-card>
       </v-col>
 
-      <v-col cols="12" sm="6" md="3" align="center">
+      <v-col cols="12" sm="6" md="4" align="center">
         <v-card max-width="300" class="elevation-24 pb-4" align="center">
           <v-img src="/oleoneem.jpg" height="300px" cover></v-img>
 
@@ -133,7 +133,7 @@
         </v-card>
       </v-col>
 
-      <v-col cols="12" sm="6" md="3" align="center">
+      <v-col cols="12" sm="6" md="4" align="center">
         <v-card max-width="300" class="elevation-24 pb-4" align="center">
           <v-img src="/cochonilha.jpg" height="300px" cover></v-img>
 
@@ -159,6 +159,45 @@
                   <v-card-text>
                     <p class="mt-4">
                       Indicado no combate/controle de cochonilhas.</p>
+                  </v-card-text>
+
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+
+                    <v-btn class="bg-secondary" text="Voltar" @click="isActive.value = false"></v-btn>
+                  </v-card-actions>
+                </v-card>
+              </template>
+            </v-dialog>
+          </div>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" sm="12" md="4" align="center">
+        <v-card max-width="300" class="elevation-24 pb-4" align="center">
+          <v-img src="/enxofre.jpg" height="300px" cover></v-img>
+
+          <v-card-title>
+            Enxofre
+          </v-card-title>
+
+          <v-card-subtitle>
+            <h2>R$ 00,00</h2>
+          </v-card-subtitle>
+
+          <div class="mt-8 d-flex justify-space-between px-4">
+            <v-btn class="elevation-24 bg-secondary">COMPRAR</v-btn>
+            <v-dialog max-width="500">
+
+              <template v-slot:activator="{ props: activatorProps }">
+                <v-btn class="elevation-24 bg-terciary" v-bind="activatorProps" color="surface-variant" text="Descrição"
+                  variant="flat"></v-btn>
+              </template>
+
+              <template v-slot:default="{ isActive }">
+                <v-card title="ENXOFRE" class="bg-terciary">
+                  <v-card-text>
+                    <p class="mt-4">Produto à base de enxofre, excelente para controle de ácaros, oídio e falsa ferrugem.</p>
                   </v-card-text>
 
                   <v-card-actions>
