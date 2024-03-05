@@ -4,3 +4,12 @@
         <v-parallax src="/teste.jpg" class="ml-2" cover />
       </div>
 </template>
+
+
+<style scoped>
+
+#oproduto {
+  scroll-margin-top: 150px;
+}
+
+</style>
