@@ -1,7 +1,7 @@
 <template>
   <v-main>
-    <div id="linhaliquidos" class="font mt-16" align="center">
-      <h2 class="fontrosas">LINHA LIQUIDOS</h2>
+    <div id="linhaliquidos" class="font mt-8" align="center">
+      <h1 class="fontrosas">LINHA LIQUIDOS</h1>
     </div>
 
     <v-row class="d-flex w-100 mx-0 mt-16 mb-16">
@@ -35,6 +35,10 @@
                     <p class="mt-4">Produto elaborado com nutrientes especiais, quelatizados em EDDHA, disponibilizando
                       às plantas zinco, ferro, cobalto e molibdênio, possibilitando o enraizamento e fortalecimento das
                       raízes.</p>
+
+                      <p class="mt-5">
+                        <v-icon size="x-large">mdi-youtube</v-icon> <a href="https://www.youtube.com/watch?v=YfS16AD0x0M" target="_blank" class="text-secondary">Clique aqui</a> e saiba como usar.
+                       </p>
                   </v-card-text>
 
                   <v-card-actions>
@@ -73,11 +77,12 @@
               <template v-slot:default="{ isActive }">
                 <v-card title="FUNGICIDA FWZ" class="bg-terciary">
                   <v-card-text>
-                    <li>
-                      Enxofre
-                    </li>
                     <p class="mt-4">Contém em sua formulação o cobre e o zinco, elementos usados há muito tempo como
                       fungicida/bactericida.</p>
+
+                      <p class="mt-5">
+                        <v-icon size="x-large">mdi-youtube</v-icon> <a href="https://www.youtube.com/watch?v=TH4Aj62aNWo" target="_blank" class="text-secondary">Clique aqui</a> e saiba como usar.
+                       </p>
                   </v-card-text>
 
                   <v-card-actions>
@@ -119,6 +124,10 @@
                     <p class="mt-4">Inseticida de contato à base de óleo de neem, produto natural, com ótima
                       funcionalidade no controle das pragas em geral. Age diretamente na superfície das folhas e caules,
                       além da camada abaixo da cutícula.</p>
+
+                      <p class="mt-5">
+                        <v-icon size="x-large">mdi-youtube</v-icon> <a href="https://www.youtube.com/watch?v=Ja7_TdmW1dQ" target="_blank" class="text-secondary">Clique aqui</a> e saiba como usar.
+                       </p>
                   </v-card-text>
 
                   <v-card-actions>
@@ -159,6 +168,10 @@
                   <v-card-text>
                     <p class="mt-4">
                       Indicado no combate/controle de cochonilhas.</p>
+
+                      <p class="mt-5">
+                        <v-icon size="x-large">mdi-youtube</v-icon> <a href="https://www.youtube.com/watch?v=2PqLENb9evA&t=161s" target="_blank" class="text-secondary">Clique aqui</a> e saiba como usar.
+                       </p>
                   </v-card-text>
 
                   <v-card-actions>
@@ -198,6 +211,10 @@
                 <v-card title="ENXOFRE" class="bg-terciary">
                   <v-card-text>
                     <p class="mt-4">Produto à base de enxofre, excelente para controle de ácaros, oídio e falsa ferrugem.</p>
+
+                    <p class="mt-5">
+                      <v-icon size="x-large">mdi-youtube</v-icon> <a href="https://www.youtube.com/watch?v=gx-HOSawmW8" target="_blank" class="text-secondary">Clique aqui</a> e saiba como usar.
+                     </p>
                   </v-card-text>
 
                   <v-card-actions>
